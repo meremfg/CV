@@ -148,6 +148,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -158,7 +164,8 @@
       <updated>1609794422030</updated>
       <workItem from="1609794423737" duration="489000" />
       <workItem from="1609794945443" duration="626000" />
-      <workItem from="1609796710643" duration="2324000" />
+      <workItem from="1609796710643" duration="1678000" />
+      <workItem from="1609800279025" duration="3187000" />
     </task>
     <servers />
   </component>
