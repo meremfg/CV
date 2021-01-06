@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Curriculum_Vitae;
+use App\Models\Loisir;
 use Illuminate\Http\Request;
 
-class CurriculumVitaesController extends Controller
+class LoisirVitaesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,18 +14,17 @@ class CurriculumVitaesController extends Controller
      */
     public function index()
     {
-
+        //
     }
 
     /**
      * Show the form for creating a new resource.
      *
-     * @param $request
      * @return \Illuminate\Http\Response
      */
-    public function create($request)
+    public function create()
     {
-        return view('curriculum_Vitae.create');
+        return view('loisir.create');
     }
 
     /**
@@ -37,15 +36,17 @@ class CurriculumVitaesController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
-            'etudiant_cin'    =>  'required',
+            'centre_d_interet'    =>  'required',
+            'cv_id'             =>  'required',
 
         ]);
-        $curriculum_Vitae= new Curriculum_Vitae([
-            'etudiant_cin'    =>  $request->get('etudiant_cin'),
+        $loisir= new Loisir([
+            'centre_d_interet'    =>  $request->get('centre_d_interet'),
+            'cv_id'    =>  $request->get('cv_id'),
 
         ]);
-        $curriculum_Vitae->save();
-        return redirect()->route('curriculum_Vitae.index')->with('success', 'Données ajoutées');
+        $loisir->save();
+        return redirect()->route('loisir.index')->with('success', 'Données ajoutées');
     }
 
     /**
@@ -67,8 +68,8 @@ class CurriculumVitaesController extends Controller
      */
     public function edit($id)
     {
-        $curriculum_Vitae = Curriculum_Vitae::find($id);
-        return view('curriculum_Vitae.edit', compact('curriculum_Vitae', 'id'));
+        $loisir = Loisir::find($id);
+        return view('loisir.edit', compact('loisir', 'id'));
     }
 
     /**
@@ -81,12 +82,14 @@ class CurriculumVitaesController extends Controller
     public function update(Request $request, $id)
     {
         $this->validate($request, [
-            'etudiant_cin'    =>  'required',
+            'centre_d_interet'    =>  'required',
+            'cv_id'             =>  'required'
         ]);
-        $curriculum_Vitae = Curriculum_Vitae::find($id);
-        $curriculum_Vitae->etudiant_cin = $request->get('etudiant_cin');
-        $curriculum_Vitae->save();
-        return redirect()->route('$curriculum_Vitae.index')->with('success', 'Données mises à jour');
+        $loisir = Loisir::find($id);
+        $loisir->centre_d_interet = $request->get('centre_d_interet');
+        $loisir->cv_id = $request->get('cv_id');
+        $loisir->save();
+        return redirect()->route('loisir.index')->with('success', 'Données mises à jour');
     }
 
     /**
@@ -97,8 +100,8 @@ class CurriculumVitaesController extends Controller
      */
     public function destroy($id)
     {
-        $curriculum_Vitae = Curriculum_Vitae::find($id);
-        $curriculum_Vitae->delete();
-        return redirect()->route('curriculum_Vitae.index')->with('success', 'Données supprimées');
+        $loisir = Loisir::find($id);
+        $loisir->delete();
+        return redirect()->route('loisir.index')->with('success', 'Données supprimées');
     }
 }

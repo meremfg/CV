@@ -9,7 +9,7 @@ class Loisir extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'centre_d interet',
+        'centre_d_interet',
         'cv_id',
 
     ];
