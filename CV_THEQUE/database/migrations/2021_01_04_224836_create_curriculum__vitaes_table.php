@@ -15,7 +15,7 @@ class CreateCurriculumVitaesTable extends Migration
     {
         Schema::create('curriculum__vitaes', function (Blueprint $table) {
             $table->id();
-            $table->id('etudiant_id');
+            $table->integer('etudiant_id');
             $table->foreign('etudiant_id')->references('id')->on('etudiant')->onDelete('cascade')
                 ->onUpdate('cascade');
 
