@@ -15,7 +15,7 @@ class CreateLoisirsTable extends Migration
     {
         Schema::create('loisirs', function (Blueprint $table) {
             $table->id();
-            $table->String('centre_d_interet',800);
+            $table->text('centre_d_interet');
             $table->integer('cv_id')->unsigned();
             $table->foreign('cv_id')->references('id')->on('curriculum_vitae')->onDelete('cascade')
                 ->onUpdate('cascade');

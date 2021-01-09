@@ -11,7 +11,7 @@ class Curriculum_Vitae extends Model
 
     protected $fillable = [
 
-        'etudiant_cin',
+        'etudiant_id',
 
     ];
 }

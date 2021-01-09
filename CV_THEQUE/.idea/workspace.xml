@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7da6edea-8267-41d5-8611-2d59c6c6412f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/CV_THEQUE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CV_THEQUE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Curriculum_Vitae.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Curriculum_Vitae.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_04_211036_create_etudiants_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_04_211036_create_etudiants_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_04_224836_create_curriculum__vitaes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_04_224836_create_curriculum__vitaes_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_05_111404_create_experience__professionnelles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_05_111404_create_experience__professionnelles_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_05_111854_create_formations_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_05_111854_create_formations_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_05_112353_create_competences_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_05_112353_create_competences_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_05_113302_create_loisirs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_05_113302_create_loisirs_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_05_114316_create_experimentals_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_05_114316_create_experimentals_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_05_120054_create_identifications_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_05_120054_create_identifications_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_05_121234_create_c_v__collections_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_05_121234_create_c_v__collections_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +116,6 @@
       <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
       <path value="$PROJECT_DIR$/vendor/brick/math" />
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
-      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
       <path value="$PROJECT_DIR$/vendor/facade/ignition" />
       <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
       <path value="$PROJECT_DIR$/vendor/league/commonmark" />
@@ -125,7 +136,11 @@
       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
       <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
     </include_path>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1mcYbpDFnMfzpqC3jVuM16NnlRn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -167,6 +182,7 @@
       <workItem from="1609796710643" duration="1678000" />
       <workItem from="1609800279025" duration="4879000" />
       <workItem from="1609864060037" duration="13997000" />
+      <workItem from="1610221308387" duration="1925000" />
     </task>
     <servers />
   </component>
