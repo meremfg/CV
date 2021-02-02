@@ -2,7 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Identification;
+use Illuminate\Support\Facades\Response;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
+use Intervention\Image\Facades\Image;
+
+
 
 class HomeController extends Controller
 {
@@ -25,4 +31,8 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+
+
+
 }

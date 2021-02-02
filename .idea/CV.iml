@@ -29,10 +29,12 @@
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/guzzlehttp/promises" />
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/guzzlehttp/psr7" />
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/intervention/image" />
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/laravel/framework" />
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/laravel/sail" />
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/laravel/tinker" />
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/laravel/ui" />
+      <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/laravelcollective/html" />
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/league/commonmark" />
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/league/flysystem" />
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/league/mime-type-detection" />
@@ -43,11 +45,14 @@
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/nikic/php-parser" />
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/nunomaduro/collision" />
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/opis/closure" />
+      <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/pclzip/pclzip" />
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/phar-io/manifest" />
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/phar-io/version" />
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/phpdocumentor/reflection-common" />
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/phpdocumentor/reflection-docblock" />
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/phpoffice/common" />
+      <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/phpoffice/phpword" />
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/phpoption/phpoption" />
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/phpspec/prophecy" />
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/phpunit/php-code-coverage" />
@@ -82,6 +87,7 @@
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/sebastian/resource-operations" />
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/sebastian/type" />
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/spatie/laravel-permission" />
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/swiftmailer/swiftmailer" />
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/symfony/console" />
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/symfony/css-selector" />
@@ -115,6 +121,7 @@
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/voku/portable-ascii" />
       <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/CV_THEQUE/vendor/zendframework/zend-escaper" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

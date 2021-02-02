@@ -1,8 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7da6edea-8267-41d5-8611-2d59c6c6412f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/CV.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/CV.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CV_THEQUE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CV_THEQUE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Identification.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Identification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +51,14 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -125,6 +172,13 @@
       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
       <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-permission" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/vendor/pclzip/pclzip" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/common" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/phpword" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-escaper" />
     </include_path>
   </component>
   <component name="ProjectId" id="1mcYbpDFnMfzpqC3jVuM16NnlRn" />
@@ -138,7 +192,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/mail" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -147,6 +202,17 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\FRsyesCD\Desktop\CV\CV_THEQUE\resources\views\mail" />
+      <recent name="C:\Users\FRsyesCD\Desktop\CV\CV_THEQUE\storage\app\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\FRsyesCD\Desktop\CV\CV_THEQUE\resources\views\cv_html" />
+      <recent name="C:\Users\FRsyesCD\Desktop\CV\CV_THEQUE\public\js" />
+      <recent name="C:\Users\FRsyesCD\Desktop\CV\CV_THEQUE\public\css" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -166,10 +232,73 @@
       <workItem from="1609794945443" duration="626000" />
       <workItem from="1609796710643" duration="1678000" />
       <workItem from="1609800279025" duration="3187000" />
+      <workItem from="1610559363890" duration="687000" />
+      <workItem from="1610623606565" duration="5509000" />
+      <workItem from="1610630371398" duration="10712000" />
+      <workItem from="1610705911204" duration="25932000" />
+      <workItem from="1610795963343" duration="24197000" />
+      <workItem from="1610877671901" duration="1681000" />
+      <workItem from="1610920493193" duration="47000" />
+      <workItem from="1610966401141" duration="9315000" />
+      <workItem from="1611005006232" duration="230000" />
+      <workItem from="1611318939381" duration="991000" />
+      <workItem from="1611337275821" duration="2169000" />
+      <workItem from="1611399856956" duration="13651000" />
+      <workItem from="1611437131850" duration="2848000" />
+      <workItem from="1611441908832" duration="4827000" />
+      <workItem from="1611519782198" duration="10590000" />
+      <workItem from="1611572452190" duration="13191000" />
+      <workItem from="1611740514901" duration="3636000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="544" y="232" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1611432167478">
+      <screen x="0" y="0" width="1728" height="996" />
+    </state>
+    <state x="544" y="232" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1728.996@0.0.1728.996" timestamp="1611432167478" />
+    <state x="594" y="253" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1610975192451">
+      <screen x="0" y="0" width="1728" height="996" />
+    </state>
+    <state x="594" y="253" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1728.996@0.0.1728.996" timestamp="1610975192451" />
+    <state x="644" y="253" key="FileChooserDialogImpl" timestamp="1611579419856">
+      <screen x="0" y="0" width="1728" height="996" />
+    </state>
+    <state x="644" y="253" key="FileChooserDialogImpl/0.0.1728.996@0.0.1728.996" timestamp="1611579419855" />
+    <state x="520" y="229" key="run.anything.popup" timestamp="1610818081148">
+      <screen x="0" y="0" width="1728" height="996" />
+    </state>
+    <state x="520" y="229" key="run.anything.popup/0.0.1728.996@0.0.1728.996" timestamp="1610818081148" />
+    <state x="527" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1611430584083">
+      <screen x="0" y="0" width="1728" height="996" />
+    </state>
+    <state x="527" y="214" width="672" height="678" key="search.everywhere.popup/0.0.1728.996@0.0.1728.996" timestamp="1611430584083" />
   </component>
 </project>
