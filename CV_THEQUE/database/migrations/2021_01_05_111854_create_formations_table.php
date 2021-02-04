@@ -17,8 +17,8 @@ class CreateFormationsTable extends Migration
             $table->id();
             $table->Date('DateDebutDeFormation');
             $table->Date('DateFinFormation');
-            $table->String('Formation',500);
-            $table->String('LieuFormation',500);
+            $table->text('Formation');
+            $table->text('LieuFormation');
             $table->integer('cv_id')->unsigned();
             $table->foreign('cv_id')->references('id')->on('curriculum_vitae')->onDelete('cascade')
                 ->onUpdate('cascade');

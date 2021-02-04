@@ -14,6 +14,7 @@ class CreateEtudiantsTable extends Migration
     public function up()
     {
         Schema::create('etudiants', function (Blueprint $table) {
+            $table->id();
             $table->string('cin',10);
             $table->string('cne',12)->unique();
             $table->string('nom',50);
@@ -23,7 +24,6 @@ class CreateEtudiantsTable extends Migration
             $table->integer('user_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('user')->onDelete('cascade')
             ->onUpdate('cascade');
-            $table->primary('cin');
 
             $table->timestamps();
         });

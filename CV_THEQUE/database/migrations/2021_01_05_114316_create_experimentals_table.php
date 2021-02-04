@@ -17,7 +17,7 @@ class CreateExperimentalsTable extends Migration
             $table->id();
             $table->Date('DateDebut');
             $table->Date('DateFin');
-            $table->String('Societe',500);
+            $table->text('Societe');
             $table->integer('cv_id')->unsigned();
             $table->foreign('cv_id')->references('id')->on('curriculum_vitae')->onDelete('cascade')
                 ->onUpdate('cascade');

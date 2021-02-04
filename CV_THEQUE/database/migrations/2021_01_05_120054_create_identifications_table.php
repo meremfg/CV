@@ -18,7 +18,7 @@ class CreateIdentificationsTable extends Migration
             $table->binary('image');
             $table->String('nom',50);
             $table->String('prenom',30);
-            $table->String('adresse',150);
+            $table->text('adresse');
             $table->Integer('CodePostale');
             $table->String('ville',80);
             $table->String('telephone',14);

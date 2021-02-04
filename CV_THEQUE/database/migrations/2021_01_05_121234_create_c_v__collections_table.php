@@ -15,7 +15,7 @@ class CreateCVCollectionsTable extends Migration
     {
         Schema::create('c_v__collections', function (Blueprint $table) {
             $table->id();
-            $table->String('lien',1000);
+            $table->text('lien');
             $table->String('titre',50);
             $table->timestamps();
         });
